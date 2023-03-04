@@ -146,3 +146,10 @@ that follows the Unicode standard.
   ![Screenshot with error](../assets/hello-world-utf16-error.png)
 </details>
 
+Zig source code files usually (actually, most of the time) end with the `.zig`
+extension, although, in reality, the extension doesn't matter to the compiler.
+
+### Anatomy of the Hello World program
+
+See the program [here](./hello-world.zig).
+
