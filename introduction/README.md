@@ -142,6 +142,6 @@ that follows the Unicode standard.
   try executing that program with `zig run ./hello-world-utf16.zig`. In my case,
   I am getting the following error:
 
-  ![](/assets/hello-world-utf16-error.png)
+  ![](../assets/hello-world-utf16-error.png)
 </details>
 
