@@ -114,4 +114,34 @@ The documentation for the standard library is at a different page,
 
 ## The hello world program
 
-> Note: write about the hello world program.
+The first program in the documentation is **the Hello World** program.
+This is a popular program that is created the first time you learn (or teach)
+a programming language.
+
+The goal of the program is to display the text "Hello World" in the console/terminal
+of the computer. It's fairly simple.
+
+You can take a look at the program [here](./hello-world.zig).
+
+The program is stored in a file named `hello-world.zig`. According to the docs,
+files storing Zig source code are UTF-8 encoded, this pretty means that the algorithm
+used for encoding the _characters_ is UTF-8, which is a variable-width encoding algorithm
+that follows the Unicode standard.
+
+> For information about Unicode and UTF-8, check out [this](https://blog.hubspot.com/website/what-is-utf-8)
+> and [this](https://deliciousbrains.com/how-unicode-works/).
+
+> There are more resources and information on the web, however, I shared
+> these because I actually read them.
+
+<details>
+  <summary>More about the encoding that Zig expects</summary>
+  Zig expects the files containing Zig source code to encoded with UTF-8.
+
+  For example, the file [here](./hello-world-utf16.zig) is encoded with UTF-16,
+  try executing that program with `zig run ./hello-world-utf16.zig`. In my case,
+  I am getting the following error:
+
+  ![](/assets/hello-world-utf16-error.png)
+</details>
+
