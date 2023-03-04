@@ -135,13 +135,13 @@ that follows the Unicode standard.
 > these because I actually read them.
 
 <details>
-  <summary>More about the encoding that Zig expects</summary>
-  Zig expects the files containing Zig source code to encoded with UTF-8.
+<summary>More about the encoding that Zig expects</summary>
+Zig expects the files containing Zig source code to encoded with UTF-8.
 
-  For example, the file [here](./hello-world-utf16.zig) is encoded with UTF-16,
-  try executing that program with `zig run ./hello-world-utf16.zig`. In my case,
-  I am getting the following error:
+For example, the file [here](./hello-world-utf16.zig) is encoded with UTF-16,
+try executing that program with `zig run ./hello-world-utf16.zig`. In my case,
+I am getting the following error:
 
-  ![Screenshot with error](../assets/hello-world-utf16-error.png)
+![Screenshot with error](../assets/hello-world-utf16-error.png)
 </details>
 
