@@ -98,6 +98,20 @@ As per the docs:
 This pretty much means that Zig programs can be compiled for a wide variety of
 CPUs, operating systems, and even for platforms such as WebAssembly.
 
+## The Zig standar libraries
+
+As with many programming languages, Zig provides a _standard library_, which offers
+things like:
+
+- Common data structures (queue, stack, etc).
+- Common algorithms.
+- APIs for consuming OS services/functionalities.
+
+And a lot of more things which ease the development.
+
+The documentation for the standard library is at a different page,
+[here](https://ziglang.org/documentation/master/std/) is the link.
+
 ## The hello world program
 
 > Note: write about the hello world program.
