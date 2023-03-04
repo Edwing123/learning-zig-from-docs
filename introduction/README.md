@@ -67,7 +67,7 @@ As per the docs:
 > behavior is correct even for edge cases such as out of memory.
 
 I kind of don't like the wording of this sentence, specifically the part "behavior is correct",
-and that's becuase I don't necessarily see the relatioship between behavior and robustness, however,
+and that's because I don't necessarily see the relatioship between behavior and robustness, however,
 I think I get the gist of it, in which programs created with Zig can endure situations such as
 "no having more memory available to work it".
 
