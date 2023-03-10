@@ -4,7 +4,7 @@ as with many languages, zig offers a way to add comments
 to our code.
 
 comments in Zig start with two forward slashes (`//`) and end until
-the end of the inline.
+the end of the line.
 
 ```zig
 // This is a comment.
