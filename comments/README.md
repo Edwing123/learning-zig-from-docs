@@ -1,6 +1,6 @@
 # Comments in Zig
 
-as with many languages, zig offers a way to add comments
+as with many languages, Zig offers a way to add comments
 to our code.
 
 comments in Zig start with two forward slashes (`//`) and end until
