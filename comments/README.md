@@ -52,11 +52,11 @@ over a variable, a function, a type, etc. The editor will show information about
 in a pop-up, and if doc comments were written for it, it'll also show them, here is
 an example:
 
+![Doc comments shown when seeing function information.](../assets/doc-comments-hover.png)
+
 > Note: ZLS is an implementation of Microsoft language server protocol for Zig.
 > In short, it's a program that editors like VSCode and Helix use to offer functionalities
 > like autocomplete, go to references, code static analysis, etc.
-
-![Doc comments shown when seeing function information.](../assets/doc-comments-hover.png)
 
 As a note, the documentation says that doc comments are only
 allowed in some places, and that in the future, the compiler
