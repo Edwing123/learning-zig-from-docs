@@ -62,5 +62,6 @@ an example:
 Also, remember the documentation website for the Zig standard library? the documentation
 for that website is gathered from the doc comments from the standard library source code.
 
-As a note, the documentation says that doc comments are only allowed in some places,
-and that in the future, the compiler will show an error if it finds a doc comment in a wrong place.
+> Note: the documentation says that doc comments are only allowed in some places,
+> and that in the future, the compiler will show an error if it finds a doc comment in a wrong place.
+
