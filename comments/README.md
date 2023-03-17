@@ -42,10 +42,11 @@ Multiple doc comments in a row are "merged" to form a multiline comment:
 const MaxStudentsPerGroup = 40;
 ```
 
-This "merging" means that all those doc comments will be shown as documentation.
+By "merged", they mean that all those comments will represent the
+documentation for whatever follows them.
 
-Okay, that sounds cool, but what do you mean when you say "shown as documentation"?
-Where will the documentation be shown?
+Alright, that sounds cool, but what's the advantage of using this type
+of comment vs the normal comment (//)?
 
 Well, in editors like VSCode and Helix with the ZLS installed, whenever you hover
 over a variable, a function, a type, etc. The editor will show information about it
@@ -58,7 +59,8 @@ an example:
 > In short, it's a program that editors like VSCode and Helix use to offer functionalities
 > like autocomplete, go to references, code static analysis, etc.
 
-As a note, the documentation says that doc comments are only
-allowed in some places, and that in the future, the compiler
-will show an error if it finds a doc comment in a wrong place.
+Also, remember the documentation website for the Zig standard library? the documentation
+for that website is gathered from the doc comments from the standard library source code.
 
+As a note, the documentation says that doc comments are only allowed in some places,
+and that in the future, the compiler will show an error if it finds a doc comment in a wrong place.
