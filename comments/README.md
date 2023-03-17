@@ -86,7 +86,7 @@ allowed to be written at the top of a file, before any statements:
 const answer_to_life = 42;
 
 //! This is a top-level doc comment... well, it should be.
-//! but actually top-level doc comments should be before any
+//! but actually top-level doc comments must be before any
 //! statements or declarations, so this is invalid.
 ```
 
