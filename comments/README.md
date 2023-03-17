@@ -92,4 +92,8 @@ const answer_to_life = 42;
 
 Try executing the following [program](./top_level_doc_comments.zig).
 
+> Note: [here](https://github.com/ziglang/zig/blob/master/lib/std/Thread/Mutex.zig) is an example of top-level
+> doc comments from the Zig standard library.
+
 Well, that's all about comments.
+
