@@ -65,3 +65,31 @@ for that website is gathered from the doc comments from the standard library sou
 > Note: the documentation says that doc comments are only allowed in some places,
 > and that in the future, the compiler will show an error if it finds a doc comment in a wrong place.
 
+## Top-level doc comments
+
+Zig provides another type of special comment, its name is "Top-level doc comment",
+its purpose, as with doc comments, is to document something, in this case though, that
+"something" is not whatever follows the top-level doc comment (which is the case with doc comments).
+Instead they are meant for adding documentation at the top-level of a source file.
+
+Basically, top-level doc comments are meant for docummenting a source file, and they are only
+allowed to be written at the top of a file, before any statements:
+
+```zig
+//! This is documentation at the top of the file,
+//! I could explain what the file contains, what it provides,
+//! its purpose, etc.
+
+// This is a humble comment...
+
+/// This is a doc comment documenting whatever follows it.
+const answer_to_life = 42;
+
+//! This is a top-level doc comment... well, it should be.
+//! but actually top-level doc comments should be before any
+//! statements or declarations, so this is invalid.
+```
+
+Try executing the following [program](./top_level_doc_comments.zig).
+
+Well, that's all about comments.
