@@ -60,10 +60,10 @@ an example:
 > like autocomplete, go to references, code static analysis, etc.
 
 Also, remember the documentation website for the Zig standard library? the documentation
-for that website is gathered from the doc comments from the standard library source code.
+for that website is gathered from the doc comments found in the standard library source code.
 
 > Note: the documentation says that doc comments are only allowed in some places,
-> and that in the future, the compiler will show an error if it finds a doc comment in a wrong place.
+> and in the future, the compiler will show an error if it finds a doc comment in a wrong place.
 
 ## Top-level doc comments
 
