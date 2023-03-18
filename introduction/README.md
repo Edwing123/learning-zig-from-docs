@@ -98,7 +98,7 @@ As per the docs:
 This pretty much means that Zig programs can be compiled for a wide variety of
 CPUs, operating systems, and even for platforms such as WebAssembly.
 
-## The Zig standar libraries
+## The Zig standard libraries
 
 As with many programming languages, Zig provides a _standard library_, which offers
 things like:
