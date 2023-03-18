@@ -50,7 +50,7 @@ of comment vs the normal comment (//)?
 
 Well, in editors like VSCode and Helix with the ZLS installed, whenever you hover
 over a variable, a function, a type, etc. The editor will show information about it
-in a pop-up, and if doc comments were written for it, it'll also show them, here is
+in a pop-up, and if doc comments were written for it, it'll also show them. here is
 an example:
 
 ![Doc comments shown when seeing function information.](../assets/doc-comments-hover.png)
